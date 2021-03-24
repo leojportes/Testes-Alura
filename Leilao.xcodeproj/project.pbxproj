@@ -20,6 +20,7 @@
 		03FA4B29209354F50047D61B /* Leilao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FA4B28209354F50047D61B /* Leilao.swift */; };
 		A23F5A0F209CA483000E6525 /* Avaliador.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23F5A0E209CA483000E6525 /* Avaliador.swift */; };
 		A23F5A11209CD8FA000E6525 /* AvaliadorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23F5A10209CD8FA000E6525 /* AvaliadorTests.swift */; };
+		A26FBA9420A32DE60090FC1F /* CriadorDeLeilao.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26FBA9320A32DE60090FC1F /* CriadorDeLeilao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		03FA4B28209354F50047D61B /* Leilao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leilao.swift; sourceTree = "<group>"; };
 		A23F5A0E209CA483000E6525 /* Avaliador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avaliador.swift; sourceTree = "<group>"; };
 		A23F5A10209CD8FA000E6525 /* AvaliadorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaliadorTests.swift; sourceTree = "<group>"; };
+		A26FBA9320A32DE60090FC1F /* CriadorDeLeilao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriadorDeLeilao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,7 @@
 			children = (
 				03FA4AF0209353270047D61B /* AppDelegate.swift */,
 				03FA4B21209353730047D61B /* Models */,
-				C13BF3D0260B669F00D44DA9 /* Views */,
+				A23F5A0D209CA1B9000E6525 /* Views */,
 				03FA4B23209353940047D61B /* Controllers */,
 				03FA4AF4209353270047D61B /* Main.storyboard */,
 				03FA4AFA209353290047D61B /* Assets.xcassets */,
@@ -148,6 +150,7 @@
 				03FA4B26209353CB0047D61B /* Usuario.swift */,
 				03FA4B28209354F50047D61B /* Leilao.swift */,
 				A23F5A0E209CA483000E6525 /* Avaliador.swift */,
+				A26FBA9320A32DE60090FC1F /* CriadorDeLeilao.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,7 +163,7 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		C13BF3D0260B669F00D44DA9 /* Views */ = {
+		A23F5A0D209CA1B9000E6525 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -301,6 +304,7 @@
 				03FA4AF3209353270047D61B /* ViewController.swift in Sources */,
 				03FA4B25209353AF0047D61B /* Lance.swift in Sources */,
 				03FA4AF1209353270047D61B /* AppDelegate.swift in Sources */,
+				A26FBA9420A32DE60090FC1F /* CriadorDeLeilao.swift in Sources */,
 				03FA4B27209353CB0047D61B /* Usuario.swift in Sources */,
 				03FA4AF9209353270047D61B /* Leilao.xcdatamodeld in Sources */,
 				A23F5A0F209CA483000E6525 /* Avaliador.swift in Sources */,

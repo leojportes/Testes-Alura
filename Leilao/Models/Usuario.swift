@@ -26,5 +26,4 @@ extension Usuario:Equatable {
         }
         return true
     }
-    
 }
